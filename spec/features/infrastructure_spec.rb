@@ -1,6 +1,6 @@
 feature 'Homepage content' do
   scenario 'loads and displays content on page' do
     visit('/')
-    expect(page).to have_content('Testing infrastructure working!')
+    expect(page).to have_content("Let's play Rock Paper Scissors!")
   end
 end

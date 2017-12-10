@@ -5,7 +5,7 @@ require 'capybara'
 require 'simplecov'
 require 'simplecov-console'
 
-require_relative '../app.rb'
+require_relative '../lib/app.rb'
 
 Capybara.app = RPS
 
