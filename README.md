@@ -1,5 +1,7 @@
 # RPS Challenge
 
+My attempt at making a Rock-Paper-Scissors game, as part of the Week 3 weekend challenge at Makers Academy.
+
 Instructions
 -------
 
