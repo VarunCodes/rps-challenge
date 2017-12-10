@@ -6,4 +6,8 @@ class Game
     @choices = [:rock, :paper, :scissors]
   end
 
+  def ai_choice
+    @ai_choice = [:rock, :paper, :scissors].sample
+  end
+
 end
