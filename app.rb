@@ -1,9 +1,10 @@
 require 'sinatra/base'
 
 class RPS < Sinatra::Base
-  get '/' do 
-    'Rock Paper Scissors'
-    'Testing infastructure working!'
+  set :session_secret, 'super secret'
+
+  get '/' do
+    'Testing infrastructure working!'
   end
-  run! if app_file == $0  
+  run! if app_file == $0
 end
